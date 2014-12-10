@@ -8,5 +8,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('papa-parse.js');
-  api.export('Papa', 'server');
+  api.export('Papa', ['server','client']);
 });
