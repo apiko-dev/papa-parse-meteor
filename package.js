@@ -1,17 +1,12 @@
 Package.describe({
   name: 'papa-parse',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  summary: 'PapaParse package for meteor',
+  version: '0.0.1',
+  git: 'https://github.com/JSSolutions/papa-parse-meteor.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('papa-parse.js');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('papa-parse');
-  api.addFiles('papa-parse-tests.js');
+  api.export('Papa', 'server');
 });
