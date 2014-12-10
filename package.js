@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'papa-parse',
+  name: 'striletskyy:papa-parse',
   summary: 'PapaParse package for meteor',
   version: '0.0.1',
   git: 'https://github.com/JSSolutions/papa-parse-meteor.git'
